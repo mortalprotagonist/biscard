@@ -1,0 +1,31 @@
+.card{
+    width: 450px;
+   
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #f83047;
+    border-bottom: 8px solid #d90429;
+    color: #edf2f4;
+    font-family:  serif;
+    font-size: 17px;
+    text-align: center;
+    
+    
+}
+img{
+    width: 150px;
+    border-radius: 50%;
+    }
+.card:hover{
+    border-bottom: 10px solid #d90429;
+    width: 460px;
+    box-shadow: 2px 2px 5px 2px rgb(94, 91, 91);
+    
+    
+}
+img:hover{
+    box-shadow: 3px 3px 20px white;
+    cursor: pointer;
+}
